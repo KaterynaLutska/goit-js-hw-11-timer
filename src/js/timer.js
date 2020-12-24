@@ -37,10 +37,10 @@ class CountdownTimer {
 let day = new Date("Dec 31, 2020");
 const timer = new CountdownTimer(day, refs);
 
-const timer = new CountdownTimer({
-  targetDate: new Date("Dec 31, 2020"),
-  selector: "#timer-1",
-});
+// const timer = new CountdownTimer({
+//   targetDate: new Date("Dec 31, 2020"),
+//   selector: "#timer-1",
+// });
 
 timer.start();
 
