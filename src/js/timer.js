@@ -42,6 +42,7 @@ const timer = new CountdownTimer({
   selector: "#timer-1",
 });
 
+timer.count();
 timer.start();
 
 // == без класу === //
